@@ -1,0 +1,119 @@
+.einaudi-background {
+  background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/homepage-einaudi-photo.png);
+  background-size: cover;
+  margin: 0;
+}
+
+.title-wrapper {
+  padding-top: 10%;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.title {
+  color: white;
+  font-family: "Open Sans";
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  font-family: "Open Sans";
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 70px;
+  overflow: hidden;
+  text-align: right;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 18px;
+  height: 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  font-size: 20px;
+  color: white;
+  float: left;
+  padding-left: 20px;
+}
+
+.topnav div.active {
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+.topnav div.top-menu {
+  float: right;
+  width: 70%;
+  height: 100%;
+}
+
+.topnav img.top-menu-pic {
+  display: contents;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  p{font-size: 20px;
+  }
+  .title{
+    margin-right: 70%;
+  }
+
+  .einaudi-background{
+    background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/profile-picture-mobile.png);
+    background-repeat: no-repeat;
+  }
+
+  .topnav a{
+    display: none;
+  }
+
+  .topnav a.active {
+    display:block;
+  }
+
+  .topnav div.active {
+    width: 70%;
+  }
+
+  .topnav div.top-menu {
+    width: 30%;
+  }
+
+  .topnav img.top-menu-pic {
+    display: inline;
+    height: 30px;
+    width: 40px;
+    position: center;
+    padding: 20px 20px;
+  }
+}
