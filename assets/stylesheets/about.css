@@ -1,0 +1,48 @@
+  .body {
+  margin: 0;
+  }
+
+.banner {
+  background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/Header-about.png);
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  margin: 0;
+  }
+
+.banner-text {
+  text-align: center;
+  top:35%;
+  position: relative;
+  color: black;
+  font-family: "Open Sans";
+  font-size: 25px;
+  }
+
+.picture-about {
+  max-width:600%;
+  float: left;
+  padding: 20px;
+  }
+
+.paragraph {
+  padding-left: 640px;
+  padding-right: 20px;
+  font-family: "Open Sans";
+  font-size: 21px;
+  height: 50%;
+  color: #424141;
+  }
+
+[class*="col-"] {
+  height: 20%;
+  float: left;
+  padding-left: 20px;
+  font-family: "Open Sans";
+  font-size: 19px;
+  color: #424141;
+  }
+}
