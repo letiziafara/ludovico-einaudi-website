@@ -1,0 +1,33 @@
+.einaudi-background {
+  background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/Final-background.png);
+  background-size: cover;
+  margin: 0;
+  font-family:"Open Sans";
+}
+
+.title-wrapper {
+  padding-top: 10%;
+  padding-left: 15px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.title {
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .einaudi-background{
+    background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/profile-picture-mobile.png);
+    background-repeat: no-repeat;
+  }
