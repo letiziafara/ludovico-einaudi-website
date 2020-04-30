@@ -1,27 +1,27 @@
   .body {
-  margin: 0;
-  font-family: "Open Sans";
+    margin: 0;
+    font-family: "Open Sans";
   }
 
-.picture-about {
-  max-width:600%;
-  float: left;
-  padding: 20px;
+  .picture-about {
+    max-width:600%;
+    float: left;
+    padding: 20px;
   }
 
-.paragraph {
-  padding-left: 640px;
-  padding-right: 20px;
-  font-size: 21px;
-  height: 50%;
-  color: #424141;
+  .paragraph {
+    padding-left: 640px;
+    padding-right: 20px;
+    font-size: 21px;
+    height: 50%;
+    color: #424141;
   }
 
-[class*="col-"] {
-  height: 20%;
-  float: left;
-  padding-left: 20px;
-  font-size: 19px;
-  color: #424141;
+  [class*="col-"] {
+    height: 20%;
+    float: left;
+    padding-left: 20px;
+    font-size: 19px;
+    color: #424141;
   }
 }
