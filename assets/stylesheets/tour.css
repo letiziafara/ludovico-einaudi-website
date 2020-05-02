@@ -1,0 +1,61 @@
+  .body {
+    margin: 0;
+    font-family: "Open Sans";
+    } 
+  .table{
+    width:80%;
+    margin-left: 10%;
+    margin-top:20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+    }
+
+  .button {
+    border: 0.02px solid white;
+    padding: 10px;
+    margin-left: 20px;
+    width: 130px;
+    height:20px;
+    text-align:center;
+    font-weight: 600;
+    color: white;
+    }
+
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  th {
+   font-size: 20px;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   padding-right: 22px;
+  }
+
+  td {
+    width: 18%;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    }
+
+  tr {
+    background-color: black;
+  }
+
+  tr:hover:not(:first-child){
+    background-color: #3B6063;
+    }
+
+  a {
+    text-decoration: none;
+    color: white;
+
+  }
+  a:hover{
+  color: black;
+  }
+}

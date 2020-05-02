@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Final Project for HTML5/CSS3 Course">
+  <meta name="keywords" content="HTML,CSS,JavaScript,jQuery">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ludovico-Einaudi-Store</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/nav_bar.css"/>
+  <script src="./assets/javascripts/nav_bar.js"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/store.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/banner.css"/>
+  <script src="./assets/javascripts/store.js"></script>
+</head>
+
+<!-- placing top navigation bar links -->
+
+  <body class="body">
+    <div class="topnav" id="myTopnav">
+    <a href=./index.html>Ludovico Einaudi</a>
+    <a href=./about.html>About</a>
+    <a href=./discography.html>Discography</a>
+    <a href=./media.html>Media</a>
+    <a href=./tour.html>Tour</a>
+    <a href=./store.html class="active">Store</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
+
+  <!-- banner text -->
+
+  <div class="banner" alt="piano keyboard">
+    <div class="banner-text">
+      <h1>Store</h1>
+    </div>
+  </div>
+
+    <!-- Control buttons -->
+    <div id="btn-container">
+      <div class="btn-center">
+        <div class="btn active-b" onclick="filterSelection('all')">All</div>
+        <div class="btn" onclick="filterSelection('dvd')">DVD</div>
+        <div class="btn" onclick="filterSelection('cd')">CD</div>
+        <div class="btn" onclick="filterSelection('tshirts')">T-shirts</div>
+        <div class="btn" onclick="filterSelection('gadgets')">Gadgets</div>
+        <div class="btn" onclick="filterSelection('artwork')">Artwork</div>
+      </div>
+    </div>
+
+  <!-- The filterable elements -->
+
+  <div class="container">
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/EINAUDI-DAY-ONE-FINAL.jpeg"/>
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Seven Days Walking - Day 1</h3>
+              <h4>12.99€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/EINAUDI-DAY-TWO.jpg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Seven Days Walking - Day 2</h3>
+              <h4>12.99€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/EINAUDI-DAY-THREE.jpg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Seven Days Walking - Day 3</h3>
+              <h4>12.99€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/EINAUDI-DAY-FOUR.jpg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Seven Days Walking - Day 4</h3>
+              <h4>12.99€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/EINAUDI-DAY-FIVE.jpg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Seven Days Walking - Day 5</h3>
+              <h4>12.99€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/EINAUDI-DAY-SIX.jpg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Seven Days Walking - Day 6</h3>
+              <h4>12.99€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/EINAUDI-DAY-SEVEN.jpg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Seven Days Walking - Day 7</h3>
+              <h4>12.99€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/divenire-cover.jpeg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Divenire</h3>
+              <h4>9.90€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/elements-cover.jpg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Elements</h3>
+              <h4>9.90€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div cd All">
+        <img class="merch-img" src="./assets/images/in-a-time-lapse-cover.jpg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>In a time lapse</h3>
+              <h4>9.90€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div dvd All">
+      <img class="merch-img" src="./assets/images/dvd 1.jpeg" />
+        <div class="force-overlay">
+          <div class="name">
+              <h3>Live in Verona</h3>
+              <h4>14.00€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div dvd All">
+      <img class="merch-img" src="./assets/images/dvd 2.jpeg" />
+        <div class="force-overlay">
+          <div class="name">
+		  <h3>Royal Albert Hall <br> Concert</h3>
+              <h4>14.00€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div tshirts All">
+      <img class="merch-img" src="./assets/images/t shirt.jpeg" />
+        <div class="force-overlay">
+          <div class="name">
+		  <h3>Seven Days  <br> Walking <br> T-Shirt</h3>
+              <h4>22.00€</h4>
+          </div>
+        </div>
+    </div>
+    <div class="filter-div tshirts All">
+      <img class="merch-img" src="./assets/images/t shirt-2.jpeg" />
+        <div class="force-overlay">
+          <div class="name">
+		  <h3>Square <br> T-Shirt</h3>
+              <h4>18.00€</h4>
+          </div>
+        </div>
+    </div>
+      <div class="filter-div gadgets All">
+        <img class="merch-img" src="./assets/images/7dw-sketchbook.jpg"/>
+        <div class="force-overlay">
+          <div class="name">
+		  <h3>Seven Days Walking <br> Sketchbook</h3>
+              <h4>16.00€</h4>
+          </div>
+        </div>
+      </div>
+      <div class="filter-div gadgets All">
+        <img class="merch-img" src="./assets/images/Elements-bookmark.jpeg"/>
+        <div class="force-overlay">
+          <div class="name">
+		  <h3>Elements <br> Bookmark</h3>
+              <h4>1.50€</h4>
+          </div>
+        </div>
+      </div>
+      <div class="filter-div gadgets All">
+        <img class="merch-img" src="./assets/images/notebook-set-7DW.jpeg"/>
+        <div class="force-overlay">
+          <div class="name">
+		  <h3>Seven Days Walking <br>  Notebook Set</h3>
+              <h4>16.00€</h4>
+          </div>
+        </div>
+      </div>
+      <div class="filter-div gadgets All">
+        <img class="merch-img" src="./assets/images/bag.jpeg"/>
+        <div class="force-overlay">
+          <div class="name">
+		  <h3>Elements <br> Tote Bag</h3>
+              <h4>15.00€</h4>
+          </div>
+        </div>
+     </div>
+     <div class="filter-div artwork All">
+       <img class="merch-img" src="./assets/images/Artwork.jpeg"/>
+        <div class="force-overlay">
+          <div class="name">
+		  <h3>Elements <br> Art Print</h3>
+              <h4>140.00€</h4>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+<script>filterSelection("all");</script>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Final Project for HTML5/CSS3 Course">
+    <meta name="keywords" content="HTML,CSS,JavaScript,jQuery">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ludovico-Einaudi-Store</title>
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/nav_bar.css"/>
+    <script src="./assets/javascripts/nav_bar.js"></script>
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/store.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/banner.css"/>
+    <script src="./assets/javascripts/store.js"></script>
+</head>
+
+<!-- placing top navigation bar links -->
+
+<body class="body">
+    <div class="topnav" id="myTopnav">
+    <a href=./index.html>Ludovico Einaudi</a>
+    <a href=./about.html>About</a>
+    <a href=./discography.html>Discography</a>
+    <a href=./media.html>Media</a>
+    <a href=./tour.html>Tour</a>
+    <a href=./store.html class="active">Store</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<!-- banner text -->
+
+  <div class="banner" alt="piano keyboard">
+    <div class="banner-text">
+      <h1>Store</h1>
+    </div>
+  </div>
+
+
+   <!-- Control buttons -->
+
+   <div id="btn-container">
+     <div class="btn active-b" onclick="filterSelection('all')">All</div>
+     <div class="btn" onclick="filterSelection('cd')">CD</div>
+     <div class="btn" onclick="filterSelection('Vinyl')">DVD</div>
+     <div class="btn" onclick="filterSelection('T-shirts')">T-shirts</div>
+     <div class="btn" onclick="filterSelection('Gadgets')">Gadgets</div>
+     <div class="btn" onclick="filterSelection('Sketchbook')">Artwork</div>
+   </div>
+
+   <!-- The filterable elements -->
+
+   <div class="container">
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/EINAUDI-DAY-ONE-FINAL.jpeg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/EINAUDI-DAY-TWO.jpg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/EINAUDI-DAY-THREE.jpg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/EINAUDI-DAY-FOUR.jpg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/EINAUDI-DAY-FIVE.jpg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/EINAUDI-DAY-SIX.jpg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/EINAUDI-DAY-SEVEN.jpg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/divenire-cover.jpeg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/elements-cover.jpg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/in-a-time-lapse-cover.jpg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/dvd 1.jpeg" />
+     </div>
+     <div class="filter-div CD All">
+       <img class="merch-img" src="./assets/images/dvd 2.jpeg" />
+     </div>
+     <div class="filter-div T-shirts All">
+       <img class="merch-img" src="./assets/images/t shirt.jpeg" />
+     </div>
+     <div class="filter-div T-shirts All">
+       <img class="merch-img" src="./assets/images/t shirt-2.jpeg" />
+     </div>
+       <div class="filter-div Gadgets All">
+         <img class="merch-img" src="./assets/images/7dw-sketchbook.jpg"/>
+       </div>
+       <div class="filter-div Gadgets All">
+         <img class="merch-img" src="./assets/images/Elements-bookmark.jpeg"/>
+       </div>
+       <div class="filter-div Gadgets All">
+         <img class="merch-img" src="./assets/images/notebook-set-7DW.jpeg"/>
+       </div>
+       <div class="filter-div Gadgets All">
+         <img class="merch-img" src="./assets/images/bag.jpeg"/>
+      </div>
+      <div class="filter-div Artwork All">
+        <img class="merch-img" src="./assets/images/Artwork.jpeg"/>
+     </div>
+  </div>
+</body>
+<script>"filterSelection('all')";</script>
+</html>
