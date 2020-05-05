@@ -1,35 +1,46 @@
-  .einaudi-background {
-    background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/Final-background.png);
-    background-size: cover;
+  body {
     margin: 0;
-    font-family:"Open Sans";
+    font-family: "Open Sans";
   }
 
-  .title-wrapper {
-    padding-top: 10%;
-    padding-left: 15px;
+  .video-overlay{
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin: 0;
+    overflow: hidden;
   }
 
-  h1 {
-    font-size: 35px;
+  .video-container {
+    z-index: -100;
+   position: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+   margin: 0;
+   object-fit: fill;
+   top:0;
   }
 
-  p {
-    font-size: 20px;
-  }
-
-  .title {
-    color: white;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  /* Extra small devices (phones, 600px and down) */
-
-  @media only screen and (max-width: 600px) {
-
-    .einaudi-background{
-      background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/profile-picture-mobile.png);
-      background-repeat: no-repeat;
+  @media screen and (max-width: 800px) {
+    .video-overlay {
+      background-position: left;
     }
-}
+    .video-container {
+      background-position: left;
+      object-fit: cover;
+      width: 800px;
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .video-container {
+      width: 600px;
+    }
+  }

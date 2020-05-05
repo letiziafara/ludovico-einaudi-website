@@ -1,74 +1,105 @@
-.body {
-  margin: 0;
-  font-family: "Open Sans";
-}
-
-.filter-section {
-  padding-top: 30px;
-  width: 100%;
+  .body {
+    margin: 0;
+    font-family: "Open Sans";
   }
 
-.btn-container {
-  position: relative;
-  margin: auto;
-  width: 100%;
-}
-
-.btn-center {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.btn {
-  border: none;
-  cursor: pointer;
-  color: #424141;
-  padding: 12px 16px;
-  font-size: 15px;
-  display: inline-block;
-}
-
-.btn:hover {
-  color: #3B6063;
-  font-weight: bolder;
+  .filter-section {
+    padding-top: 30px;
+    width: 100%;
   }
 
-.btn.active-b {
-  color: #3B6063;
-  font-weight: bolder;
+  /* banner */
+
+  .banner {
+    background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/banner-photo-5.jpg);
+    height: 540px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin: 0;
+    overflow: hidden;
   }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  overflow: hidden;
+  .banner-text {
+    text-align: center;
+    height: inherit;
+    color: white;
+    font-size: 25px;
+    margin-top: 130px;
   }
 
-.filter-div {
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  display: none;
+  h1{
+    display: inline-block;
   }
 
-.merch-img {
-  width: 300px;
-  height: 300px;
-  position: relative;
-  display: flex;
+  /* buttons style */
+
+  .btn-container {
+    position: relative;
+    margin: auto;
+    width: 100%;
   }
 
-.merch-img:hover {
-  opacity: 0.5;
-}
+  .btn-center {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
 
-.force-overlay{
-    /*display: none;*/
+  .btn {
+    border: none;
+    cursor: pointer;
+    color: #424141;
+    padding: 12px 16px;
+    font-size: 15px;
+    display: inline-block;
+  }
+
+  .btn:hover {
+    color: #3B6063;
+    font-weight: bolder;
+  }
+
+  .btn.active-b {
+    color: #3B6063;
+    font-weight: bolder;
+  }
+
+  /* items style */
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .filter-div {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    display: none;
+  }
+
+  .merch-img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+  }
+
+  /* hover effect */
+
+  .merch-img:hover {
+    opacity: 0.5;
+  }
+
+  .force-overlay {
     display:flex;
     justify-content: center;
     text-align: center;
@@ -78,9 +109,9 @@
     height: 100%;
     top: -100%;
     z-index: 999;
-}
+  }
 
-.force-overlay:hover {
+  .force-overlay:hover {
     display:flex;
     justify-content: center;
     text-align: center;
@@ -92,25 +123,35 @@
     height: 100%;
     top: -100%;
     z-index: 999;
-}
+  }
 
-h4 {
-  font-weight:500;
-}
+  h4 {
+    font-weight: 500;
+  }
 
+  .name {
+    padding-top: 34%;
+    width: 100%;
+  }
 
-.name {
-  padding-top: 34%;
-  width: 100%;
-}
+  .name:hover{
+    display: block;
+  }
 
-.name:hover{
-  display: block;
-}
+  /* The "show" class is added to the filtered elements */
 
+  .show {
+    display: block;
+  }
 
-/* The "show" class is added to the filtered elements */
+  @media screen and (max-width: 600px) {
+    .banner-text {
+      margin-top: 130px;
+    }
 
-.show {
-  display: block;
+  @media screen and (max-width: 600px) {
+    .banner-text.responsive {
+      margin-top: 10px;
+    }
+  }
 }

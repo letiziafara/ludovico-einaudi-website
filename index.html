@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Final Project for HTML5/CSS3 Course">
-    <meta name="keywords" content="HTML,CSS,JavaScript,jQuery">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="./assets/javascripts/nav_bar.js"></script>
-    <title>Ludovico-Einaudi-About</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/banner.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/nav_bar.css" />
+  <meta charset="UTF-8">
+  <meta name="description" content="Final Project for HTML5/CSS3 Course">
+  <meta name="keywords" content="HTML,CSS,JavaScript,jQuery">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./assets/javascripts/nav_bar.js"></script>
+  <title>Ludovico-Einaudi-Homepage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/nav_bar.css"/>
 </head>
 
- <!-- placing background image and top navigation bar links -->
+<!-- Top navigation bar links and background video -->
 
-<body class="einaudi-background" alt="Ludovico Einaudi playing piano"/>
-  <div class="topnav" id="myTopnav">
-    <a href=./index.html class="active">Ludovico Einaudi</a>
-    <a href=./about.html>About</a>
-    <a href=./discography.html>Discography</a>
-    <a href=./media.html>Media</a>
-    <a href=./tour.html>Tour</a>
-    <a href=./store.html>Store</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+<body>
+  <div class="video-overlay">
+    <div class="topnav" id="myTopnav">
+      <a href=./index.html class="active">Ludovico Einaudi</a>
+      <div class="topnav-right" id="myInnerTopnav">
+        <a href=./about.html>About</a>
+        <a href=./discography.html>Discography</a>
+        <a href=./media.html>Media</a>
+        <a href=./tour.html>Tour</a>
+        <a href=./store.html>Store</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <video class="video-container" autoplay muted playsinline loop>
+      <source src="./assets/videos/My-background-video.mp4" type="video/mp4">
+      </source>
+      Your browser does not support the video tag
+    </video>
   </div>
-
- <!-- title home page -->
-
-<div class="title-wrapper">
-    <h1 class="title">Ludovico Einaudi</h1>
-    <p class="title">Pianist and Composer</p>
-</div>
-
 </body>
 </html>

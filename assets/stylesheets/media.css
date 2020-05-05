@@ -3,6 +3,33 @@
     font-family: "Open Sans";
   }
 
+  /* banner */
+
+  .banner {
+    background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/banner-photo.jpg);
+    height: 540px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin: 0;
+    overflow: hidden;
+  }
+
+
+  .banner-text {
+    text-align: center;
+    height: inherit;
+    color: white;
+    font-size: 25px;
+    margin-top: 130px;
+  }
+
+  h1{
+    display: inline-block;
+  }
+
   h3 {
     text-align: left;
     color: #424141;
@@ -10,6 +37,8 @@
     height: 0px;
     width: 0px;
   }
+
+    /* photos style */
 
   .media-list {
      display: flex;
@@ -59,6 +88,8 @@
      box-sizing: inherit;
    }
 
+  /* videos style */
+
   .video {
     width: 500px;
     height: 300px;
@@ -66,5 +97,16 @@
     margin-right: 20px;
     position: relative;
     overflow: hidden;
+  }
+
+  @media screen and (max-width: 600px) {
+    .banner-text {
+      margin-top: 130px;
     }
+
+  @media screen and (max-width: 600px) {
+    .banner-text.responsive {
+      margin-top: 10px;
+    }
+  }
 }

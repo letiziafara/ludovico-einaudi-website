@@ -1,29 +1,42 @@
   .body {
     margin: 0;
     font-family: "Open Sans";
-    } 
+  }
+
+    /* banner */
+
+  .banner {
+    background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/banner-photo-3.jpg);
+    height: 540px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .banner-text {
+    text-align: center;
+    height: inherit;
+    color: white;
+    font-size: 25px;
+    margin-top: 130px;
+  }
+
+  h1{
+    display: inline-block;
+  }
+
+  /* table style */
+
   .table{
     width:80%;
     margin-left: 10%;
     margin-top:20px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-collapse: collapse;
-    }
-
-  .button {
-    border: 0.02px solid white;
-    padding: 10px;
-    margin-left: 20px;
-    width: 130px;
-    height:20px;
-    text-align:center;
-    font-weight: 600;
-    color: white;
-    }
-
-  .button:hover {
-    background-color: white;
-    color: black;
   }
 
   th {
@@ -40,7 +53,7 @@
     padding: 10px;
     font-size: 14px;
     color: white;
-    }
+  }
 
   tr {
     background-color: black;
@@ -48,14 +61,45 @@
 
   tr:hover:not(:first-child){
     background-color: #3B6063;
-    }
+  }
+
+  /* tickets button style */
+
+  .button {
+    border: 0.02px solid white;
+    padding: 10px;
+    margin-left: 20px;
+    width: 130px;
+    height:20px;
+    text-align:center;
+    font-weight: 600;
+    color: white;
+  }
+
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* venue link style */
 
   a {
     text-decoration: none;
     color: white;
-
   }
+
   a:hover{
-  color: black;
+    color: black;
+  }
+
+  @media screen and (max-width: 600px) {
+    .banner-text {
+      margin-top: 130px;
+    }
+
+  @media screen and (max-width: 600px) {
+    .banner-text.responsive {
+      margin-top: 10px;
+    }
   }
 }

@@ -8,79 +8,80 @@
     <script src="./assets/javascripts/nav_bar.js"></script>
     <title>Ludovico-Einaudi-About</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/about.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/banner.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/nav_bar.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/about.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/nav_bar.css"/>
 </head>
 
  <!-- placing top navigation bar links -->
 
 <body class="body">
+
+<!-- banner - top-nav text -->
+
+<div class="banner" alt="piano keyboard">
   <div class="topnav" id="myTopnav">
-    <a href=./index.html class="active">Ludovico Einaudi</a>
+  <a href=./index.html class="active">Ludovico Einaudi</a>
+  <div class="topnav-right" id="myInnerTopnav">
     <a href=./about.html>About</a>
     <a href=./discography.html>Discography</a>
     <a href=./media.html>Media</a>
     <a href=./tour.html>Tour</a>
     <a href=./store.html>Store</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
-
-   <!-- banner text -->
-
-    <div class="banner" alt="piano keyboard">
-      <div class="banner-text">
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+     <div class="banner-text" id="myBannerText">
         <h1>About</h1>
-      </div>
-    </div>
+     </div>
+</div>
 
-     <!-- placing picture and bio -->
+ <!-- placing picture and bio -->
 
-    <img class="picture-about" src="./assets/images/picture-about.png" alt="Einaudi picture"/>
-    <div class="paragraph">
-      <p>
-      <span style="font-weight: 600">Ludovico Einaudi</span>, born on 23 November 1955, is an Italian pianist and composer.
-      Trained at the Conservatorio Verdi in Milan, he began his career as a classical composer,
-      later incorporating other styles and genres such as pop, rock, folk, and world music.
-      </p>
-      <p>
-        Einaudi has composed the scores for a number of films and television productions,
-        including <span style="font-weight: 600">This Is England</span>,
-        <span style="font-weight: 600">The Intouchables</span>, <span style="font-weight: 600">I'm Still Here</span>,
-        the TV miniseries <span style="font-weight: 600">Doctor Zhivago</span>, and <span style="font-weight: 600">Acquario</span> (1996),
-        for which he won the <span style="font-weight: 600">Grolla d'oro</span> award.
-      </p>
-      <p>
-        He has also released a number of solo albums for piano and other instruments,
-        notably <span style="font-weight: 600">I Giorni</span> in 2001, <span style="font-weight: 600">Nightbook</span> in 2009,
-        and <span style="font-weight: 600">In a Time Lapse</span> in 2013.
-        On 1 March 2019, Einaudi announced a seven-part project named <span style="font-weight: 600">Seven Days Walking</span>,
-        which was released over the course of seven months in 2019.
-      </p>
-    </div>
-    <div class="col-xs-12">
-      <h4>Singles</h4>
-      <ul>
-          <li>Ultimi Fuochi (1998)</li>
-          <li>Blusound (2001)</li>
-          <li>Night (2015)</li>
-	        <li>Elements (2015)</li>
-          <li>Drop (2015)</li>
-          <li>Elegy for the Arctic (2016)</li>
-      </ul>
-    </div>
-      <div class="col-xs-12 col-md-4">
-      <h4>Live albums</h4>
-      <ul>
-          <li>La Scala Concert (2003))</li>
-          <li>Live in Berlin (2007)</li>
-          <li>iTunes Festival: London 2007 (2007)</li>
-          <li>Live in Prague (2009)</li>
-          <li>The Royal Albert Hall Concert (2010)</li>
-          <li>La notte della Taranta 2010 (2011)</li>
-      </ul>
+<img class="picture-about" src="./assets/images/picture-about.png" alt="Einaudi picture"/>
+<div class="paragraph">
+  <p>
+  <span style="font-weight: 600">Ludovico Einaudi</span>, born on 23 November 1955, is an Italian pianist and composer.
+  Trained at the Conservatorio Verdi in Milan, he began his career as a classical composer,
+  later incorporating other styles and genres such as pop, rock, folk, and world music.
+  </p>
+  <p>
+    Einaudi has composed the scores for a number of films and television productions,
+    including <span style="font-weight: 600">This Is England</span>,
+    <span style="font-weight: 600">The Intouchables</span>, <span style="font-weight: 600">I'm Still Here</span>,
+    the TV miniseries <span style="font-weight: 600">Doctor Zhivago</span>, and <span style="font-weight: 600">Acquario</span> (1996),
+    for which he won the <span style="font-weight: 600">Grolla d'oro</span> award.
+  </p>
+  <p>
+    He has also released a number of solo albums for piano and other instruments,
+    notably <span style="font-weight: 600">I Giorni</span> in 2001, <span style="font-weight: 600">Nightbook</span> in 2009,
+    and <span style="font-weight: 600">In a Time Lapse</span> in 2013.
+    On 1 March 2019, Einaudi announced a seven-part project named <span style="font-weight: 600">Seven Days Walking</span>,
+    which was released over the course of seven months in 2019.
+  </p>
+</div>
+<div class="col-xs-12">
+  <h4>Singles</h4>
+  <ul>
+      <li>Ultimi Fuochi (1998)</li>
+      <li>Blusound (2001)</li>
+      <li>Night (2015)</li>
+      <li>Elements (2015)</li>
+      <li>Drop (2015)</li>
+      <li>Elegy for the Arctic (2016)</li>
+  </ul>
+</div>
+  <div class="col-xs-12 col-md-4">
+  <h4>Live albums</h4>
+  <ul>
+      <li>La Scala Concert (2003))</li>
+      <li>Live in Berlin (2007)</li>
+      <li>iTunes Festival: London 2007 (2007)</li>
+      <li>Live in Prague (2009)</li>
+      <li>The Royal Albert Hall Concert (2010)</li>
+      <li>La notte della Taranta 2010 (2011)</li>
+  </ul>
     </div>
 </body>
 </html>
