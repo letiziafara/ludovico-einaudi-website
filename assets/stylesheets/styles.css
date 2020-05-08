@@ -3,6 +3,8 @@
     font-family: "Open Sans";
   }
 
+  /* Video Background */
+
   .video-overlay{
     min-height: 100%;
     min-width: 100%;
@@ -12,20 +14,23 @@
     position:relative;
     margin: 0;
     overflow: hidden;
+    min-height: calc(100vh - 90px);
   }
 
   .video-container {
     z-index: -100;
-   position: fixed;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   width: 100%;
-   height: 100vh;
-   margin: 0;
-   object-fit: fill;
-   top:0;
+     position: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 100%;
+     height: 100vh;
+     margin: 0;
+     object-fit: fill;
+     top:0;
   }
+
+/* 800px Screen */
 
   @media screen and (max-width: 800px) {
     .video-overlay {
@@ -38,6 +43,7 @@
     }
   }
 
+/* Mobile */
 
   @media screen and (max-width: 600px) {
     .video-container {

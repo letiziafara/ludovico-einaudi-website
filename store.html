@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="Final Project for HTML5/CSS3 Course">
@@ -10,35 +10,34 @@
   <link rel="stylesheet" type="text/css" href="./assets/stylesheets/nav_bar.css"/>
   <script src="./assets/javascripts/nav_bar.js"></script>
   <link rel="stylesheet" type="text/css" href="./assets/stylesheets/store.css"/>
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/footer.css"/>
   <script src="./assets/javascripts/store.js"></script>
 </head>
+<body>
 
-<!-- placing top navigation bar links -->
-
-<body class="body">
-
-<!-- banner - top-nav text -->
+<!-- Top navigation bar links and banner -->
 
 <div class="banner" alt="piano keyboard">
   <div class="topnav" id="myTopnav">
-  <a href=./index.html class="active">Ludovico Einaudi</a>
-  <div class="topnav-right" id="myInnerTopnav">
-    <a href=./about.html>About</a>
-    <a href=./discography.html>Discography</a>
-    <a href=./media.html>Media</a>
-    <a href=./tour.html>Tour</a>
-    <a href=./store.html>Store</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+    <a href=./index.html class="active">Ludovico Einaudi</a>
+      <div class="topnav-right" id="myInnerTopnav">
+        <a href=./about.html>About</a>
+        <a href=./discography.html>Discography</a>
+        <a href=./media.html>Media</a>
+        <a href=./tour.html>Tour</a>
+        <a href=./store.html>Store</a>
+      </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
   <div class="banner-text" id="myBannerText">
     <h1>Store</h1>
   </div>
 </div>
 
-<!-- Control buttons -->
+<!-- Categories buttons  -->
+
 <div id="btn-container">
   <div class="btn-center">
     <div class="btn active-b" onclick="filterSelection('all')">All</div>
@@ -50,7 +49,7 @@
   </div>
 </div>
 
-<!-- The filterable elements -->
+<!-- The filtrated elements -->
 
 <div class="container">
   <div class="filter-div cd All">
@@ -225,6 +224,17 @@
       </div>
   </div>
 </div>
+<footer>
+  <div class=foot-container>
+    <p class="footer-p">Ludovico Einaudi</p>
+    <div class="social-media">
+      <a href="https://www.facebook.com/ludovicoeinaudi/"><img class="facebook" src="./assets/images/fbicon.png" alt="facebook icon"></a>
+      <a href="https://twitter.com/LudovicoEinaud"><img class="twitter" src="./assets/images/twitter.png" alt="twitter icon"></a>
+      <a href="https://www.instagram.com/ludovico_einaudi/"><img class="instagram" src="./assets/images/instagram.png" alt="instagram icon"></a>
+      <a href="https://www.youtube.com/user/ludovicoeinaudi"><img class="youtube" src="./assets/images/youtube.png" alt="youtube icon"></a>
+    </div>
+</div>
+</footer>
 </body>
 <script>filterSelection("all");</script>
 </html>

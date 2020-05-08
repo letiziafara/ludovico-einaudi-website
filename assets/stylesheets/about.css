@@ -1,68 +1,181 @@
-  .body {
-    margin: 0;
-    font-family: "Open Sans";
-  }
+body {
+  margin: 0;
+  font-family: "Open Sans";
+}
 
-  /* banner */
+/* Banner */
 
-  .banner {
-    background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/banner-photo-about.jpg);
-    height: 540px;
-    width: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-    margin: 0;
-    overflow: hidden;
-  }
+.banner {
+  background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/banner-photo-about.jpg);
+  height: 540px;
+  width: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  margin: 0;
+  overflow: hidden;
+}
 
-  .banner-text {
-    text-align: center;
-    height: inherit;
-    color: white;
-    font-size: 25px;
-    margin-top: 130px;
-  }
+.banner-text {
+  text-align: center;
+  height: inherit;
+  color: white;
+  font-size: 25px;
+  margin-top: 180px;
+}
 
-  h1{
-    display: inline-block;
-  }
+h1{
+  display: inline-block;
+}
 
-  .picture-about {
-    max-width:600%;
-    float: left;
-    padding: 20px;
-  }
+/* Paragraphs */
 
-  .paragraph {
-    padding-left: 640px;
-    padding-right: 20px;
-    font-size: 21px;
-    height: 50%;
-    color: #424141;
-  }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-  [class*="col-"] {
-    height: 20%;
-    float: left;
-    padding-left: 20px;
-    font-size: 19px;
-    color: #424141;
-  }
+ .text {
+   width: 1000px;
+   height: 256px;
+   position: relative;
+   margin: auto;
+   margin-top: 40px;
+ }
+
+.paragraph1 {
+  width: 490px;
+  height: 216px;
+  margin: 0;
+  text-align: left;
+  position: absolute;
+  line-height: 1.5;
+}
+
+.paragraph2 {
+  width: 485px;
+  height: 216px;
+  margin: 0;
+  text-align: left;
+  position: absolute;
+  line-height: 1.5;
+  left: 530px;
+}
+
+p {
+  color: #424141;
+  margin: 0;
+  font-size: 18px;
+}
+
+.image-container {
+  width: 1000px;
+  height: 394.73px;
+}
+
+/* Image */
+
+img {
+ width: 1000px;
+ object-fit: scale-down;
+}
+
+/* Bullet points */
+
+.bulletpoints1 {
+   width: 300px;
+   height: 250px;
+   text-align: left;
+   position: absolute;
+   color: #424141;
+   font-size: 18px;
+   left: 140px;
+}
+
+.bulletpoints2 {
+  width: 485px;
+  height: 250px;
+  text-align: left;
+  position: absolute;
+  left: 480px;
+  color: #424141;
+  font-size: 18px;
+}
+
+li {
+  line-height: 1.5;
+}
+
+.social-media {
+  padding-top: 10px;
+}
+
+/* Mobile */
 
 @media screen and (max-width: 600px) {
   .banner-text {
-    margin-top: 130px;
+    margin-top: 180px;
   }
 
   .banner {
     background-position: left;
   }
 
-  @media screen and (max-width: 600px) {
-    .banner-text.responsive {
-      margin-top: 10px;
-    }
+  .banner-text.responsive {
+    margin-top: 10px;
+  }
+
+  .text{
+    width: 500px;
+    height: 493px;
+    margin-bottom: 40px;
+  }
+
+  .paragraph1 {
+   width: 460px;
+   left: 20px;
+   right: 20px;
+  }
+
+  .paragraph2 {
+    width: 460px;
+    left: 20px;
+    top: 256px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .bulletpoints1 {
+    left: 20px;
+    top: -20px;
+  }
+
+  .bulletpoints2 {
+    left: 20px;
+    top: 240px;
+  }
+
+  .social-media {
+    padding-top: 20px;
+  }
+
+  .footer-p {
+    padding-top: 12px;
+  }
+
+  .image-container {
+    width: 500px;
+    top: 40px;
+    height: 197.36px;
+  }
+
+  img {
+   width: 500px;
+   top: 40px;
   }
 }

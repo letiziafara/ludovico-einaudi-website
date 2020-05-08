@@ -5,6 +5,8 @@ body {
   font-family: "Open Sans";
 }
 
+/* Top Navigation Bar Style */
+
 h1 {
   margin: 0;
   height: 100%;
@@ -47,6 +49,7 @@ h1 {
   display: none;
 }
 
+/* Mobile */
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -56,9 +59,7 @@ h1 {
     display: block;
     padding: 17px 16px;
   }
-}
 
-@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav-right.responsive {
       display:inherit;
@@ -78,5 +79,4 @@ h1 {
     display: block;
     text-align: left;
   }
-
 }

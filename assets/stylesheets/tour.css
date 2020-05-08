@@ -1,9 +1,9 @@
-  .body {
+  body {
     margin: 0;
     font-family: "Open Sans";
   }
 
-    /* banner */
+/* Banner */
 
   .banner {
     background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/banner-photo-3.jpg);
@@ -22,18 +22,18 @@
     height: inherit;
     color: white;
     font-size: 25px;
-    margin-top: 130px;
+    margin-top: 180px;
   }
 
   h1{
     display: inline-block;
   }
 
-  /* table style */
+/* Table Style */
 
   .table  {
     width: 70%;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 15%;
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-collapse: collapse;
@@ -67,7 +67,7 @@
     background-color: #3B6063;
   }
 
-  /* tickets button style */
+  /* Tickets Button Style */
 
   .button {
     border: 0.02px solid white;
@@ -87,20 +87,29 @@
     color: black;
   }
 
-  /* venue link style */
+  /* Venue Link Style */
 
   a {
     text-decoration: none;
     color: white;
   }
 
-  a:hover{
+  a:hover {
     color: black;
   }
 
+  .footer {
+   position: static;
+   width: 100%;
+   height: 50px;
+   background-color: black;
+  }
+
+/* Mobile */
+
   @media screen and (max-width: 600px) {
     .banner-text {
-      margin-top: 130px;
+      margin-top: 180px;
     }
 
     .banner-text.responsive {
@@ -109,7 +118,7 @@
 
     .table {
       margin: 0;
-      margin-top: 10px;
+      margin-top: 40px;
       width: 100%;
     }
 
@@ -127,3 +136,4 @@
       width: 100px;
       height: 15px;
     }
+}

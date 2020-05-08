@@ -1,9 +1,9 @@
-.body {
+body {
   margin: 0;
   font-family:"Open Sans";
 }
 
-/* banner */
+/* Banner */
 
 .banner {
   background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/EINAUDI-6.jpg);
@@ -22,20 +22,20 @@
   height: inherit;
   color: white;
   font-size: 25px;
-  margin-top: 130px;
+  margin-top: 180px;
 }
 
-h1{
+h1 {
   display: inline-block;
 }
 
-/* album cover style */
+/* Album Cover Style */
 
 .albumandtracklist {
- display: flex;
- flex-direction: row;
- justify-content: center;
- flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .album-container {
@@ -43,7 +43,7 @@ h1{
   height: 490px;
   position: relative;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .album {
@@ -58,8 +58,7 @@ h1{
  height: 490px;
 }
 
-/* tracklist style */
-
+/* Tracklist Style */
 
 .album-tracklist {
   width: 500px;
@@ -74,7 +73,7 @@ h1{
 }
 
 .tracklistrow:hover {
- background-color: grey;
+  background-color: grey;
 }
 
 .tracklistnumber {
@@ -107,23 +106,7 @@ h1{
   width: 24%;
 }
 
-/* buttons style */
-
-
-.button:hover {
-   background-color: white;
-   color: black;
-}
-
-.button2:hover {
-   background-color: white;
-   color: black;
-}
-
-.button3:hover {
-   background-color: white;
-   color: black;
-}
+/* Buttons Style */
 
 a {
   color:white;
@@ -163,14 +146,24 @@ a {
   font-weight: 600;
 }
 
-@media screen and (max-width: 600px) {
-  .banner-text {
-    margin-top: 130px;
-  }
+.button:hover {
+   background-color: white;
+   color: black;
+}
 
-  .banner-text.responsive {
-    margin-top: 10px;
-  }
+.button2:hover {
+   background-color: white;
+   color: black;
+}
+
+.button3:hover {
+   background-color: white;
+   color: black;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 992px) {
 
   .album-container {
     width: 500px;
@@ -183,7 +176,14 @@ a {
    }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
+  .banner-text {
+    margin-top: 180px;
+  }
+
+  .banner-text.responsive {
+    margin-top: 10px;
+  }
 
   .album-container {
     width: 500px;

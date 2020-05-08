@@ -1,9 +1,9 @@
-  .body {
+  body {
     margin: 0;
     font-family: "Open Sans";
   }
 
-  /* banner */
+/* Banner */
 
   .banner {
     background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/banner-photo.jpg);
@@ -17,13 +17,12 @@
     overflow: hidden;
   }
 
-
   .banner-text {
     text-align: center;
     height: inherit;
     color: white;
     font-size: 25px;
-    margin-top: 130px;
+    margin-top: 180px;
   }
 
   h1{
@@ -38,7 +37,7 @@
     width: 0px;
   }
 
-    /* photos style */
+/* Photos Style */
 
   .media-list {
      display: flex;
@@ -88,7 +87,7 @@
      box-sizing: inherit;
    }
 
-  /* videos style */
+/* Videos Style */
 
   .video {
     width: 500px;
@@ -99,44 +98,47 @@
     overflow: hidden;
   }
 
-  @media screen and (max-width: 992px) {
-    .media-card-mask {
-      margin: auto;
-      margin-top: 20px;
-    }
+  /* 992px Screen */
 
-    h3 {
-      text-align: left;
-      margin-left: 24.3%;
-    }
-
-    .video {
-      margin: auto;
-      margin-top: 20px;
-    }
+@media screen and (max-width: 992px) {
+  .media-card-mask {
+    margin: auto;
+    margin-top: 20px;
   }
 
-  @media screen and (max-width: 600px) {
-    .banner-text {
-      margin-top: 130px;
-    }
-
-    .banner-text.responsive {
-      margin-top: 10px;
-    }
-
-    .media-card-mask {
-      margin: auto;
-      margin-top: 20px;
-    }
-
-    h3 {
-      text-align: left;
-      margin-left: 3%;
-    }
-
-    .video {
-      margin: auto;
-      margin-top: 20px;
-    }
+  h3 {
+    text-align: left;
+    margin-left: 24.3%;
   }
+
+  .video {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+/* Mobile */
+
+@media screen and (max-width: 600px) {
+  .banner-text {
+    margin-top: 180px;
+  }
+
+  .banner-text.responsive {
+    margin-top: 10px;
+  }
+
+  .media-card-mask {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  h3 {
+    text-align: left;
+    margin-left: 3%;
+  }
+
+  .video {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
