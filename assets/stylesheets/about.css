@@ -6,7 +6,7 @@ body {
 /* Banner */
 
 .banner {
-  background-image: url(/Users/andreaciccardi/Desktop/github/ludovico-einaudi-website/assets/images/banner-photo-about.jpg);
+  background-image: url(../images/banner-photo-about.jpg);
   height: 540px;
   width: 100%;
   background-position: top;
