@@ -89,3 +89,34 @@ footer {
     margin-right: 5px;
   }
 }
+
+/* Mobile Iphone X */
+
+@media screen and (max-width: 375px) {
+  .social-media {
+    margin-left: 10%;
+    margin-top: 0;
+  }
+  .facebook {
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+  }
+
+  .twitter {
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+  }
+
+  .instagram {
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+  }
+
+  .youtube {
+    width: 25px;
+    height: 25px;
+  }
+}

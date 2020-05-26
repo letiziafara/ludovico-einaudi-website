@@ -129,7 +129,7 @@ li {
     margin-top: 10px;
   }
 
-  .text{
+  .text {
     width: 500px;
     height: 493px;
     margin-bottom: 40px;
@@ -178,5 +178,29 @@ li {
   img {
    width: 500px;
    top: 40px;
+  }
+}
+
+/* Mobile Iphone X */
+
+@media screen and (max-width: 375px) {
+  .text {
+    width: 375px;
+    height: 665px;
+}
+
+  .paragraph1 {
+     width: 335px;
+     left: 20px;
+     right: 20px;
+    }
+
+  .paragraph2 {
+    width: 335px;
+    top: 360px;
+    }
+
+  .social-media {
+    padding-top: 14px;
   }
 }
